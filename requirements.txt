@@ -1,0 +1,21 @@
+# DataLinkAnalyzer Android App 依赖
+
+# Web 框架
+starlette>=0.27.0
+uvicorn[standard]>=0.23.0
+
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 可视化
+plotly>=5.18.0
+
+# 表单处理
+python-multipart>=0.0.6
+
+# 模板引擎
+jinja2>=3.1.0
+
+# Toga (仅用于开发/测试环境，如果不需要可以移除)
+# toga>=0.3.0
